@@ -69,7 +69,7 @@ export async function login(req,res){
         const usuario = await db.collection('usuario').findOne({email: email})
 
         if(usuario===null){
-            res.send("Email ou senha invalido.").status(401)
+            res.sendStatus(401)
             return
         }
         const {senhaCrypt, nome} =  usuario
@@ -77,7 +77,7 @@ export async function login(req,res){
         const validacaoSenha = bcryptjs.compareSync(senha, senhaCrypt)
 
         if(!validacaoSenha){
-            res.send("senha errada").status(401)
+            res.sendStatus(401)
             return
         }
 
