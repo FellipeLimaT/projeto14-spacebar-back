@@ -196,7 +196,168 @@ const arrayProdutos = [{
     origem: "Roleta Russa",
     teor: "4.8%",
     imagem: "https://emporiodacerveja.vtexassets.com/arquivos/ids/175242-600-auto?v=637091866516900000&width=600&height=auto&aspect=true"
-},
+}, {
+    nome: "Whisky Cutty Sark",
+    valor: 54.99,
+    descricao: "Whisky escocês. Lançado em 1923. Cutty Sark Blended Scotch Whisky foi o primeiro whisky de cor naturalmente clara, inspirando a sua identidade e imagem no famoso e veloz clipper (veleiro) inglês, Cutty Sark.Cutty Sark Blended é um genuíno whisky escocês de lote de qualidade premium, que nasce após seis meses de casamento entre uma seleção dos melhores whiskies de malte, com particular predominância da região de speyside, e whiskies de grão de elevada qualidade. O resultado é uma combinação inconfundível de sabores e a consistência tão reconhecida ao Whisky Cutty Sark ",
+    volume: "1L",
+    tipo: "Blended",
+    categoria: "whisky",
+    origem: "Cutty Sark",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/6420_Whisky_Cutty_Sark_8_Anos_1_L.1537275570.jpg"
+}, {
+    nome: "Whisky Grant's",
+    valor: 69.99,
+    descricao: "Whisky escocês elaborado a partir de Malt Whisky e Destilado Alcoólico de Cereias Envelhecido.  Um whisky amadurecido em três tipos diferentes de madeira para um sabor suave, rico e suave. Muitos uísques tiram o sabor de apenas um barril, mas o Triple Wood da Grant é amadurecido em três tipos diferentes de madeira: o barril Virgin Oak fornece robustez picante, o American Oak empresta suavidade sutil de baunilha e o refil de Bourbon oferece doçura de açúcar mascavo, resultando em um sabor mais suave e rico.",
+    volume: "1L",
+    tipo: "Blended",
+    categoria: "whisky",
+    origem: "Grants",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/6470_Whisky_Grants_Triple_Wood_1L.1570561116.jpg"
+}, {
+    nome: "Whisky Black & White",
+    valor: 64.99,
+    descricao: "Whisky escocês. Black & White foi desenvolvido há mais de um século atrás por James Buchanan, e se tornou um dos mais importantes representantes de scotch whisky no século XIX. James criou um blend mais suave e leve que os outros scotchs do mercado, porém mantendo a mesma essência de consistência e sabor.",
+    volume: "1L",
+    tipo: "Blended",
+    categoria: "whisky",
+    origem: "Black & White",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/6470_Whisky_Grants_Triple_Wood_1L.1570561116.jpg"
+}, {
+    nome: "Whiskey Jack Daniels",
+    valor: 144.99,
+    descricao: "Whiskey Jack Daniels 1 L. Repousa nos barris do meio dos armazéns da destilaria, até que chegue ao ponto perfeito para se tornar um verdadeiro Tennessee Whiskey. Possui um sabor suave e marcante de madeira no início. Acompanhado por tons adocicados e notas de baunilha. Por ter notas frutadas é a combinação perfeita com refrigerante de Cola e Citrus, além de drinks com frutas cítricas, como maracujá, limão e laranja. A icônica garrafa quadrada é um símbolo da marca. Representa a modernidade, por ter sido criada em 1895 sendo uma inovação para a época, e a tradição, por continuar a mesma até hoje. Sugestão de consumo: Puro, com gelo e devido ao seu toque cítrico combina bem em drinks como o Jack & Cola, Jack & Citrus. Graduação alc. 40% vol. - 1000 ml (vidro). Whiskey importado dos Estados Unidos.",
+    volume: "1L",
+    tipo: "Tenessee",
+    categoria: "whisky",
+    origem: "Jack Daniels",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/6423_Whiskey_Jack_Daniels_1_L.1582112746.jpg"
+}
+, {
+    nome: "Whisky Johnnie Walker Black Label",
+    valor: 179.99,
+    descricao: "Whisky escocês. Quando se bebe Johnnie Walker Black Label, na verdade estão apreciando o resultado de uma arte: a arte de criar um blend harmonioso, de cerca de 40 dos melhores maltes e whiskies de grãos escoceses, envelhecidos por, no mínimo, 12 anos, para formar um único Scotch Whisky de sabor e qualidade inigualáveis, como queria John Walker. Os quatro aromas mais significativos de Johnnie Walker Black Label são: Creme de baunilha, frutas frescas, frutas encorpadas e aromas da terra. Hoje, Johnnie Walker Black Label é reconhecido pelos consumidores não só como símbolo de progresso, mas de sofisticação e estilo.",
+    volume: "750ml",
+    tipo: "Blended",
+    categoria: "whisky",
+    origem: "Johnnie Walker",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/6408-whisky-johnnie-walker-black-label-12-anos-1-l.1648670534.jpg"
+}, {
+    nome: "Whisky Jim Beam White",
+    valor: 99.99,
+    descricao: "Whisky Jim Beam White 1L. Whisky elaborado a partir de destilado alcóolico de milho, centeio e malte de cevada. Envelhecido em Kentuck, Estados Unidos. Bourbon. Graduação alcoólica 40%vol - 1000ml. Whisky importado dos Estados Unidos.",
+    volume: "1L",
+    tipo: "Bourbon",
+    categoria: "whisky",
+    origem: "Jim Beam",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/6489_Whisky_Jim_Beam_White_1_L.1534621684.jpg"
+}, {
+    nome: "Whisky Johnnie Walker Red Label",
+    valor: 79.99,
+    descricao: "Whisky Johnnie Walker Red Label 1L. Whisky escocês. Johnnie Walker Red Label é produzido com os melhores ingredientes e a tradição da família Johnnie Walker. Tem uma seleção inigualável de maltes na sua composição que garantem sua superioridade. São mais de 35 maltes, tendo como principal o Cardhu, reconhecido maltes das Terras Altas (Highlands). Talisker, outro importante malte na sua composição, vai garantir o paladar mais profundo e picante, oposto de Cardhu. Graduação alcoólica 40% vol. - Conteúdo 1000 ml (vidro). Whisky importado da Escócia.",
+    volume: "1L",
+    tipo: "Blended",
+    categoria: "whisky",
+    origem: "Johnnie Walker",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/6407-whisky-johnnie-walker-red-label-1-l.1648671628.jpg"
+}, {
+    nome: "Gin Gordon's London Dry",
+    valor: 59.99,
+    descricao: "Desde 1769 que a maior preocupação de Alexander Gordon era a qualidade dos ingredientes que compõem o gin Gordon’s London Dry. Bagas de Zimbro, sementes de coentro e outros botânicos são os principais ingredientes que conferem a Gordon’s o sabor intenso que lhe é característico. Após uma escolha cuidadosamente selecionada, 9 em cada 10 bagas de Zimbro são rejeitadas no processo de produção. De seguida são guardadas por dois anos para intensificar os óleos e o aroma doce. O aroma das bagas de zimbro associado ao sabor intenso de Gordon’s London Dry, fazem de Gordon’s o gin ideal para um Gin Tónico perfeito.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Gordons London",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/9096_Gin_Gordons_London_Dry_750_ml.1534622494.jpg"
+}, {
+    nome: "Gin Beefeater London Dry",
+    valor: 89.99,
+    descricao: "O Beefeater London Dry tem um sabor extremamente puro, com um ousado caráter de zimbro que é equilibrado com fortes notas cítricas, tornando-o o gin perfeito para desfrutar com a tônica de sua preferência. O sabor perfeitamente equilibrado garante uma alta flexibilidade para drinks.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Beefeater",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/9098-gin-beefeater-london-dry-750ml.20220616125801.1655395081.jpg"
+}, {
+    nome: "Gin Bombay Sapphire Dry London",
+    valor: 109.99,
+    descricao: "O Gin Bombay Sapphire Dry London é uma bebida inglesa composta de destilado alcoólico retificado e extratos vegetais aromáticos. O incomparável sabor de Bombay Sapphire é resultado de uma cuidadosa seleção de ervas aromáticas e um exclusivo processo de destilação, proporcionando um aroma único e agradável.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Bombay",
+    teor: "36%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/9053_Gin_Bombay_Sapphire_Dry_London_750_ml.1534622320.jpg"
+}, {
+    nome: "Gin Tanqueray Dry",
+    valor: 119.99,
+    descricao: "Destilado 4 vezes a partir de grãos, ervas e especiarias da Itália selecionadas manualmente, com água puríssima, enorme atenção ao processo de produção e controle de qualidade, Tanqueray amadureceu por 8 meses antes de ser engarrafado na Inglaterra, de onde segue para todo o mundo.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Tanqueray",
+    teor: "49%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/9095_Gin_Tanqueray_Dry_750_ml.1534622252.jpg"
+}, {
+    nome: "Gin Apogee Rose",
+    valor: 39.99,
+    descricao: "O Gin Apogee Rose é bem fresco e muito aromático, em sua fórmula tem a infusão de Cranberry, Pitaya & Pimenta Rosa. Os botânicos são macerados antes da ultima destilação começar e depois da destilação o gin fica um bom período em repouso.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Apogee",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/85122-gin-apogee-rose-1l.1626812793.jpg"
+}, {
+    nome: "Gin Apogee Citrus",
+    valor: 39.99,
+    descricao: "O Gin Apogee Citrus é bem fresco e muito aromático, em sua fórmula tem a infusão de Tangerina e Laranja Valência. Os botânicos são macerados antes da ultima destilação começar e depois da destilação o gin fica um bom período em repouso.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Apogee",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/85120-gin-apogee-citrus-1l.1626807300.jpg"
+}, {
+    nome: "Gin Apogee",
+    valor: 39.99,
+    descricao: "O Gin Apogee é o único gin nacional a utilizar álcool zero hidrocarboneto, a mais pura base em fabricação no mundo para se destilar gin. Não se sente o odor ou aroma de álcool. Ideal para ser degustado gelado e na composição de drinks.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Apogee",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/13072-gin-apogee-1l.1627478254.jpg"
+}, {
+    nome: "Gin Seager's",
+    valor: 37.99,
+    descricao: "Líder do mercado nacional, o Gin Seager's é sinônimo de Gin no Brasil. É do tipo London Gin, conhecido como dry ou seco. É uma das mais tradicionais bebidas apreciadas no Brasil, onde é produzido há mais de 50 anos. Com sabor e aroma majoritariamente de zimbro, além de notas cítricas de cascas de laranjas e especiarias. ",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Seagers",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/9054-gin-seager-s-london-dry-1l.1624481518.jpg"
+},{
+    nome: "Gin Hendrick's",
+    valor: 37.99,
+    descricao: "Lançado em 1999, surpreendeu ao ser servido num copo largo que, em vez do usual limão, tinha uma rodela de pepino e pétalas de rosa! As pétalas de rosa e o pepino, para além do tradicional zimbro, são ambos usados na produção do Hendricks para conseguir o seu sabor tão característico. Para além da forma de servir, a Hendricks também inovou com a imagem da sua garrafa, toda preta, a lembrar as garrafas medicinais antigas, com um rótulo do estilo vintage.",
+    volume: "750ml",
+    tipo: "London Dry",
+    categoria: "gin",
+    origem: "Hendricks",
+    teor: "40%",
+    imagem: "https://www.imigrantesbebidas.com.br/bebida/images/products/full/62006-gin-hendrick-s-750ml.1640113572.jpg"
+}
 ]
 
 export default arrayProdutos;
