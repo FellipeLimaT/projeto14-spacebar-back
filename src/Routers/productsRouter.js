@@ -12,16 +12,23 @@ router.param("id", (req, res, next, id) => {
 
     console.log(idProduto)
 
-
   res.locals.idProduto = idProduto;
     next();
 });
-  
-router.get('/produto/:id',gerarProdutoEspecifico)
-router.get('/vinho', gerarVinhos);
-router.get('/cerveja', gerarCervejas);
-router.get('/whisky', gerarWhiskys);
-router.get('/gin', gerarGins);
+
+router.get('/produtos/:id',gerarProdutoEspecifico)
+
+router.param("categoria", (req, res, next, id) => {
+  console.log("This function will be called first");
+  const categoriaProduto = req.params.categoria
+
+  console.log(idProduto)
+
+res.locals.categoriaProduto = categoriaProduto;
+  next();
+});
+router.get('/produtos/:categoria',gerarCategoria)
+
 
 
 
