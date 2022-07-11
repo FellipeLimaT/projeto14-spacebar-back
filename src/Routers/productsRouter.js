@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { gerarProdutos, gerarProdutoEspecifico, gerarVinhos, gerarCervejas, gerarWhiskys, gerarGins} from '../controllers/productsController.js'
+import { gerarProdutos, gerarProdutoEspecifico, gerarCategoria} from '../controllers/productsController.js'
 
 
 const router = Router()
@@ -22,12 +22,12 @@ router.param("categoria", (req, res, next, id) => {
   console.log("This function will be called first");
   const categoriaProduto = req.params.categoria
 
-  console.log(idProduto)
+  console.log(categoriaProduto)
 
 res.locals.categoriaProduto = categoriaProduto;
   next();
 });
-router.get('/produtos/:categoria',gerarCategoria)
+router.get('/categoria/:categoria',gerarCategoria)
 
 
 

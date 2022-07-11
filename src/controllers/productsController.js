@@ -51,8 +51,9 @@ export async function gerarProdutoEspecifico(req, res) {
 
 export async function gerarCategoria(req, res) {
 
-    const categoriaProduto = res.locals.categoriaProduto;
+    const categoriaPrsoduto = res.locals.categoriaProduto;
 
+console.log("categoria", categoriaProduto)
     console.log("entrou")
     try {
 
